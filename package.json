@@ -1,0 +1,24 @@
+{
+  "name": "FileMerge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaynor-landmark/FileMerge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaynor-landmark/FileMerge/issues"
+  },
+  "homepage": "https://github.com/gaynor-landmark/FileMerge#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
