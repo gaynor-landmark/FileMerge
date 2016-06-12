@@ -6,7 +6,7 @@ app.use(express.static(path.join(__dirname, '../public') ) )
 
 app.set('port', 3000)
 var server = app.listen(app.get('port'), function(){
-  console.log('Listening on ' + server.address().port)
+  console.log('Listening on port ' + server.address().port)
 })
 
 app.get('/', function(req, res){
